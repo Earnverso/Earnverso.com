@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen text-2xl">
-      🚀 Welcome to Earnverso.com – Learn. Earn. Grow.
+    <div style={{ padding: "2rem", fontFamily: "Arial" }}>
+      <h1>Welcome to Earnverso.com 🚀</h1>
+      <p>This site is deployed with Vercel using a simple Next.js setup.</p>
     </div>
   );
 }
